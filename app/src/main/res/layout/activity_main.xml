@@ -7,12 +7,34 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="TextView"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="300dp" />
 
+    <Button
+        android:id="@+id/btn_true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRUE"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <Button
+        android:id="@+id/btn_false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FALSE"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="694dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
