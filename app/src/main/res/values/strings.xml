@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Beder Quiz App</string>
+
+
+
+    <array name="questions">
+        <item>Eshte macja qen?</item>
+        <item>A do futemi ne Be ne 2023</item>
+        <item>A do behemi ndonjeher njerez ne shqiptaret</item>
+        <item>Do kemi ndonje president sakllam?</item>
+        <item>A eshte njesoj sikur te themi IlirM ose LikeFloriri</item>
+    </array>
+
 </resources>
