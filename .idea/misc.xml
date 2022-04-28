@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Administratori/AndroidStudioProjects/Beder2022/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Administratori/AndroidStudioProjects/Beder2022/app/src/main/res/layout/activity_elements.xml" value="0.2" />
+        <entry key="..\:/Users/Administratori/AndroidStudioProjects/Beder2022/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Administratori/AndroidStudioProjects/Beder2022/app/src/main/res/layout/activity_register.xml" value="0.2" />
       </map>
     </option>
   </component>
