@@ -78,7 +78,8 @@ public class MainActivity extends AppCompatActivity {
         listapergjigje.add(true);
     }
 
-    public void get_next_qestion(int position_question){
+    public void get_next_qestion(int position_question)
+    {
         LabelQuestion.setText(listaepyetjeve.get(position_question));
     }
 
