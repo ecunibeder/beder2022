@@ -31,23 +31,17 @@ public class Activity_Login extends AppCompatActivity {
         Btn_Register = (Button) findViewById(R.id.bt_register);
         CheckData = (TextView) findViewById(R.id.check_data);
 
-        Btn_Login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-               Str_email = Edt_Email.getText().toString();
-               Str_Pass = Edt_Password.getText().toString();
-                Toast.makeText(getApplicationContext(),"Emaili eshte: "+Str_email,Toast.LENGTH_SHORT).show();
-            }
+        Btn_Login.setOnClickListener(view -> {
+           Str_email = Edt_Email.getText().toString();
+           Str_Pass = Edt_Password.getText().toString();
+            Toast.makeText(getApplicationContext(),"Emaili eshte: "+Str_email,Toast.LENGTH_SHORT).show();
         });
 
-        Btn_Register.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent;
-                intent = new Intent().setClass(getApplicationContext(), Activity_Register.class);
-                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(intent);
-            }
+        Btn_Register.setOnClickListener(view -> {
+            Intent intent;
+            intent = new Intent().setClass(getApplicationContext(), Activity_Register.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
         });
         Str_email = Edt_Email.getText().toString();
         Edt_Email.addTextChangedListener(new TextWatcher() {
